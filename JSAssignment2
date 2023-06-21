@@ -1,0 +1,18 @@
+function findMax(numbers) {
+
+  let max = numbers[0]; // Assume the first element is the maximum
+
+  for (let i = 1; i < numbers.length; i++) {
+
+    if (numbers[i] > max) {
+
+      max = numbers[i]; // Update the maximum if a larger number is found
+
+    }
+
+  }
+
+  return max;
+
+}
+
